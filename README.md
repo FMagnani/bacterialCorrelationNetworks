@@ -1,6 +1,17 @@
 # Stuff
 stuff stuff stuff
 
+# Brief description of the files
+- *paths* contains all the paths to datafiles, but currently they not online
+- *cleanData* and *filterBacteria* are together for preprocessing
+- *networkPipeline* is for building the network
+- *networkConnectivity* is for some simple graph statistics
+- *temperatures* and *seasonalNetworkPipeline* are for determining seasons and building seasonal networks
+- *taxonomicComposition* is for the flowchart of the taxonomy
+- *correlationAndTaxonomy*, *shortestPathAndTaxonomy* and *modularityAndTaxonomy* are for characterizing taxonomy groups
+- *globalDensityThreshold* and *localDensityThreshold* are for finding the best thresholding strategy
+- *findCommunities* and *computeModularityOfTaxonomy* apply radatools at the networks
+
 # Notes for installation into conda environment
 In order to develop stuff in R on servers without root permissions and without R-studio, I employ **conda**. It's easy to create a R environments and to install R packages in it. As easy as  
 `conda install r-<package-name> -c conda-forge`  
